@@ -33,7 +33,7 @@ The following command will :
 ./runner.sh  -DprocessName="processName=update-notifier" -DprogramDuration="programDuration=10" -DsamplingInterval="samplingInterval=2" 
  ```
 
-Or with maven directly:
+Or with maven to run spring-boot command directly:
 ```
  mvn clean test -DprocessName="processName=update-notifier" -DprogramDuration="programDuration=10" -DsamplingInterval="samplingInterval=2" 
 ``` 
